@@ -1,9 +1,3 @@
-// $('.multiple-items').slick({
-//     infinite: true,
-//     autoplaySpeed: 1500,
-// });
-
-
 $(function() {
     $('.goat_block').slick({
         prevArrow: false,
