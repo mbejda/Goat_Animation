@@ -27,7 +27,7 @@ a {
 }
 
 .goat_block{
-    position: absolute;
+    /* position: absolute; */
     height: 620px;
     z-index: 3;
     overflow: hidden;
@@ -39,7 +39,6 @@ a {
 .card{
     width: 300px;
     margin: 0 auto;
-    
 }
 
 .img_goat{
@@ -50,15 +49,13 @@ a {
 }
 
 .message{
-    position: relative;
-    display: inline-block;
-    left: 50px;
-    width: 18%;
+    display: flex;
+    float: left;
     text-align: center;
     text-transform: uppercase;
     background-color: lightgray;
     font-family: 'Inter', sans-serif;
-    /* font-weight: 500; */
+    font-weight: 500;
     padding: 10px;
     border-radius: 20px 20px 20px 0;
     margin: 5px auto 15px;
