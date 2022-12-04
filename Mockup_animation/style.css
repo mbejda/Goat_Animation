@@ -43,7 +43,7 @@ a {
 
 .img_goat{
     width: 300px;
-    height: 350px;
+    height: 370px;
     object-fit: cover;
     border-radius: 20px;
 }
@@ -58,9 +58,15 @@ a {
     font-weight: 500;
     padding: 10px;
     border-radius: 20px 20px 20px 0;
-    margin: 5px auto 15px;
+    margin: 5px auto 10px;
 }
 
 .slick-list{
-    min-height: 800px;
+    min-height: 700px;
+}
+
+.slick-list .slick-track{
+    height: 620px;
+    /* position: relative; */
+    top: -30px;
 }
