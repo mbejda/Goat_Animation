@@ -3,8 +3,8 @@ $(function() {
         prevArrow: false,
         nextArrow: false,
         vertical: true,
-        infinite: true,
         autoplay: true,
-        autoplaySpeed: 1000,
+        infinite: true,
+        autoplaySpeed: 800,
     })
 });
