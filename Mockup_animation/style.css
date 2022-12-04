@@ -43,30 +43,24 @@ a {
 
 .img_goat{
     width: 300px;
-    height: 370px;
+    height: 350px;
     object-fit: cover;
     border-radius: 20px;
 }
 
 .message{
-    max-width: 250px;
     display: inline-block;
+    width: 18%;
     text-align: center;
     text-transform: uppercase;
     background-color: lightgray;
     font-family: 'Inter', sans-serif;
-    font-weight: 500;
+    /* font-weight: 500; */
     padding: 10px;
     border-radius: 20px 20px 20px 0;
-    margin: 5px auto 10px;
+    margin: 5px auto 15px;
 }
 
 .slick-list{
-    min-height: 700px;
-}
-
-.slick-list .slick-track{
-    height: 620px;
-    /* position: relative; */
-    top: -30px;
+    min-height: 620px;
 }
