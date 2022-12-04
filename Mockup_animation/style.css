@@ -39,6 +39,7 @@ a {
 .card{
     width: 300px;
     margin: 0 auto;
+    
 }
 
 .img_goat{
@@ -49,7 +50,9 @@ a {
 }
 
 .message{
+    position: relative;
     display: inline-block;
+    left: 50px;
     width: 18%;
     text-align: center;
     text-transform: uppercase;
